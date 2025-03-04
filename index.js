@@ -5,3 +5,7 @@ const returnFirstTwoDrivers = function (drivers) {
   return drivers.slice(0, 2);
   //   return sliced;
 };
+
+const returnLastTwoDrivers = function (drivers) {
+  return drivers.slice(-2);
+};
